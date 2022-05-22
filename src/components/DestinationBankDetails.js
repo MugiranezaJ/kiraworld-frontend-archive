@@ -164,6 +164,7 @@ export class DestinationBankDetails extends React.Component {
                     disabled
                     />
                 </Grid>
+                {/* <Typography variant='caption'>Amount are sent in RWF and received in EUR! plus charge</Typography> */}
                 {/* <Grid item xs={12}>
                   <TextField 
                     placeholder="Phone number"

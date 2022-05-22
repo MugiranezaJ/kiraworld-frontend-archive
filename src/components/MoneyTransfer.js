@@ -69,7 +69,7 @@ export class MoneyTransferForm extends Component {
     console.log("Amount: " + amount)
     amount = amount ? amount.match(/\d/g).join("") : 0
     console.log(amount)
-    const destination_amount = Math.floor(amount*0.95*0.00092)
+    const destination_amount = Math.floor(amount*0.95 /**0.00092*/)
     this.setAmount(amount)
     this.setDestinationAmount(parseInt(destination_amount))
   }

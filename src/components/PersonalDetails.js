@@ -113,7 +113,6 @@ const PersonalDetails = ({ nextStep, handleChange, setAmount, setDestinationAmou
                   fullWidth
                   disabled
                 />
-                <Typography variant='caption'>Amount are sent in RWF and received in EUR! plus charge</Typography>
               </Grid>
               {/* <Grid item xs={12} sm={3}>
                 <FormControl fullWidth>
