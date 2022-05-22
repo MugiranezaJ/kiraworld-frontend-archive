@@ -4,7 +4,7 @@ import axios from 'axios'
 // const token = 'FLWSECK_TEST-SANDBOXDEMOKEY-X'
 const config = axios.create({
     // baseURL: process.env.REACT_APP_BACKEND_BASE_URL
-    baseURL:"http://127.0.0.1:4200/v1"
+    baseURL:"https://kirawrld-backend.herokuapp.com/v1"
 })
 // config.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 config.defaults.headers.post['Content-Type'] ='application/json';
