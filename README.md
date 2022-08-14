@@ -1,2 +1,2 @@
 # kiraworld-frontend
-Frontend for KiraWorld money transfer
+Frontend for KiraWorld money transfers
