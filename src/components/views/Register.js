@@ -17,7 +17,7 @@ function Register(props){
         
         <div className="container">
             <div className='login-box'>
-                <div className='app-title'>MeChat</div>
+                {/* <div className='app-title'>MeChat</div> */}
                 <div style={{fontSize: 20}}>
                     Register
                 </div>

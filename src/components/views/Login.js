@@ -8,7 +8,7 @@ import SignInForm from '../LoginForm'
 function Login(props){  
     const token = localStorage.getItem('mechat_access_token');
     if(token){
-        window.location.href = '/home_1'
+        window.location.href = '/home'
     }
     
     // if(props.login.success){
@@ -25,8 +25,8 @@ function Login(props){
         <div className="container">
             
             <div className='login-box'>
-                <div className='app-title'>MeChat</div>
-                <div style={{fontSize: 20}}>
+                {/* <div className='app-title'>MeChat</div> */}
+                <div style={{fontSize: 20, textAlign: 'center'}}>
                     Login
                 </div>
                 <SignInForm onSubmit={handleLogin}/>

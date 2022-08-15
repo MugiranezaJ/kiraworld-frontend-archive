@@ -49,7 +49,7 @@ const PersonalDetails = ({ nextStep, handleChange, setAmount, setDestinationAmou
       >
       <Box
         boxShadow={3}
-        style={{ padding: "10px 10px 20px", borderRadius:10 }}
+        style={{ padding: "10px 10px 20px", borderRadius:5 }}
       >
         <Typography  component="h1" variant="h5">
           Money Transfer
