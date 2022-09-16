@@ -26,15 +26,19 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --max_old_space_size=2560 start",
+    "build": "react-scripts --max_old_space_size=2560 build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
+      "plugin:flowtype/recommended",
       "react-app",
       "react-app/jest"
+    ],
+    "plugins": [
+      "flowtype"
     ]
   },
   "browserslist": {
@@ -48,5 +52,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "16.17.0",
+    "npm": "8.15.0"
   }
 }
